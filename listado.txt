@@ -1,0 +1,305 @@
+Para el Metodo listadocines
+----------------------------
+	    var xcines = cbocine.Items;
+            xcines.Clear();
+            xcines.Add("<<Cines...>");
+            xcines.Add("Cines Plaza");
+            xcines.Add("Cinerama Minka");
+            xcines.Add("Cinerama El Pacifico");
+            xcines.Add("Cine Start Aviacion");
+            xcines.Add("Cine Start Benavides");
+            xcines.Add("Cine Start Excelsior");
+            xcines.Add("CineMark Jockey Plaza");
+            xcines.Add("CineMark Megaplaza");
+            xcines.Add("CineMark San Miguel");
+            xcines.Add("CinePlanet Primavera");
+            xcines.Add("CinePlanet Alcazar");
+            xcines.Add("CinePlanet Norte");
+            xcines.Add("CinePlanet San Miguel");
+            xcines.Add("UVK Caminos del Inka");
+            xcines.Add("UVK Larcomar");
+            xcines.Add("UVK Marina Park");
+            xcines.Add("UVK San Martin");
+            cbocine.SelectedIndex = 0;
+
+Para el Metodo listadogeneros()
+-------------------------------
+ 	    var xgenero = cbogenero.Items;
+            xgenero.Clear();
+            xgenero.Add("<<Genero...>>");
+            xgenero.Add("Acción");
+            xgenero.Add("Anime");
+            xgenero.Add("Animación");
+            xgenero.Add("Artes Marciales");
+            xgenero.Add("Aventuras");
+            xgenero.Add("Ciencia Ficcion");
+            xgenero.Add("Epico");
+            xgenero.Add("Dibujos");
+            xgenero.Add("Documental");
+            xgenero.Add("Musical");
+            xgenero.Add("Terror");
+            xgenero.Add("Suspenso");
+            cbogenero.SelectedIndex = 0;
+
+Para el Metodo accion()
+-----------------------
+	    var xaccionpeli = lstpeli.Items;
+            xaccionpeli.Clear();
+            xaccionpeli.Add("Avengers I");  
+            xaccionpeli.Add("Avengers II - La Era De Ultron");
+            xaccionpeli.Add("Batman vs Superman - El Origen de la Justicia");
+            xaccionpeli.Add("Capitan America I - El Primer Vengador");
+            xaccionpeli.Add("Capitan America II - El Soldado Del Invierno");
+            xaccionpeli.Add("Capitan America III - Civil War");
+            xaccionpeli.Add("Deadpool");
+            xaccionpeli.Add("Iroman I");
+            xaccionpeli.Add("Iroman II ");
+            xaccionpeli.Add("Star War I - La Amenaza Fantasma");
+            xaccionpeli.Add("Star War II - El Ataque De Los Clones");
+            xaccionpeli.Add("Star War III - La Venganza De Los Sith");
+            xaccionpeli.Add("Star War IV - Una Nueva Esperanza");
+            xaccionpeli.Add("Star War V - El Imperio ContraAtaca");
+            xaccionpeli.Add("Star War VI - El Retorno Del Jedi");
+            xaccionpeli.Add("Star War VII - El Despertar De La Fuerza");
+            xaccionpeli.Add("SpiderMan 1");
+            xaccionpeli.Add("SpiderMan 2");
+            xaccionpeli.Add("SpiderMan 3");
+            xaccionpeli.Add("Thor I - El Valor Es Inmortal");
+            xaccionpeli.Add("Thor II - El Mundo Oscuro");
+            xaccionpeli.Add("Thor III - Ragnarok");
+
+Para el Metodo anime()
+----------------------
+            var xanimepeli = lstpeli.Items;
+            xanimepeli.Clear();
+            xanimepeli.Add("Ajin");
+            xanimepeli.Add("Ansatsu Kyoushitsu");
+            xanimepeli.Add("Boku Dake ga Inai Machi");
+            xanimepeli.Add("Black Lagoon");
+            xanimepeli.Add("Blood+");
+            xanimepeli.Add("Cowboy Bebop");
+            xanimepeli.Add("Dragon Ball Z");
+            xanimepeli.Add("Dragon Ball Super");
+            xanimepeli.Add("Durarara!!×2 Ketsu");
+            xanimepeli.Add("Dimension W");
+            xanimepeli.Add("Evangelion");
+            xanimepeli.Add("Shoujo-tachi wa Kouya wo Mezasu");
+            xanimepeli.Add("Kono Subarashii Sekai ni Shukufuku wo!");
+            xanimepeli.Add("Hai to Gensou no Grimgar");
+
+Para el Metodo animacion()
+--------------------------
+	    var xanimapeli = lstpeli.Items;
+            xanimapeli.Clear();
+            xanimapeli.Add("Big Hero 6");
+            xanimapeli.Add("Buscando A Nemo");
+            xanimapeli.Add("Como Entrenar A Tu Dragon 1");
+            xanimapeli.Add("Como Entrenar A Tu Dragon 2");
+            xanimapeli.Add("El Rey Leon");
+            xanimapeli.Add("Inside Out");
+            xanimapeli.Add("Toy Story 1");
+            xanimapeli.Add("Toy Story 2");
+            xanimapeli.Add("Toy Story 3");
+            xanimapeli.Add("Monstruos S.A.");
+            xanimapeli.Add("La Bella Y La Bestia");
+            xanimapeli.Add("La Edad De Hielo 1");
+            xanimapeli.Add("La Edad De Hielo 2");
+            xanimapeli.Add("La Edad De Hielo 3");
+            xanimapeli.Add("La Edad De Hielo 4");
+            xanimapeli.Add("Ratatouille");
+            xanimapeli.Add("Shrek 1");
+            xanimapeli.Add("Shrek 2");
+            xanimapeli.Add("Shrek 3");
+            xanimapeli.Add("Up");
+            xanimapeli.Add("Wall");
+
+Para el Metodo artesmarciales()
+-------------------------------
+	    var xartesmarc = lstpeli.Items;
+            xartesmarc.Clear();
+            xartesmarc.Add("Contacto Sangriento");
+            xartesmarc.Add("El Maestro Borrachon");
+            xartesmarc.Add("El Arte De La Guerra");
+            xartesmarc.Add("El Tigre Y El Dragon");
+            xartesmarc.Add("IP Man 1");
+            xartesmarc.Add("IP Man 2");
+            xartesmarc.Add("IP Man 3");
+            xartesmarc.Add("Kill Bill 1");
+            xartesmarc.Add("Kill Bill 2");
+            xartesmarc.Add("Redada 1");
+            xartesmarc.Add("Redada 2");
+            xartesmarc.Add("Shaolin Soccer");
+            xartesmarc.Add("Sin Miedo");
+            xartesmarc.Add("Operacion Dragon");
+            xartesmarc.Add("On Bak 1");
+            xartesmarc.Add("On Bak 2");
+            xartesmarc.Add("On Bak 3");
+            xartesmarc.Add("Kung Fu Sion");
+
+Para el Metodo aventuras()
+--------------------------
+	    var xaventura = lstpeli.Items;
+            xaventura.Clear();
+            xaventura.Add("Avatar");
+            xaventura.Add("El Señor De Los Anillos 1 - La Comunidad");
+            xaventura.Add("El Señor De Los Anillos 2 - Las Dos Torres");
+            xaventura.Add("El Señor De Los Anillos 2 - El Retorno Del Rey");
+            xaventura.Add("Jurassic Park 1");
+            xaventura.Add("Jurassic Park 2");
+            xaventura.Add("Jurassic Park 3");
+            xaventura.Add("Jurassic Park 4");
+            xaventura.Add("Los Goonies");
+            xaventura.Add("Indiona Jones y El Templo Maldito");
+            xaventura.Add("Indiona Jones En Busca Del Arca Perdida");
+            xaventura.Add("Indiona Jones  y La Ultima Cruzada");   
+            xaventura.Add("Regreso Al Futuro 1");
+            xaventura.Add("Regreso Al Futuro 2");
+            xaventura.Add("Regreso Al Futuro 3");
+
+Para el Metodo cienciaficcion()
+-------------------------------
+            var xficcion = lstpeli.Items;
+            xficcion.Clear();
+            xficcion.Add("Blade Runner");
+            xficcion.Add("E.T. El Extraterrestre");
+            xficcion.Add("El Quinto Elemento");
+            xficcion.Add("Matrix 1");
+            xficcion.Add("Matrix 2");
+            xficcion.Add("Matrix 3");
+            xficcion.Add("Terminator 1");
+            xficcion.Add("Terminator 2");
+            xficcion.Add("Terminator 3");
+            xficcion.Add("Terminator 4");
+            xficcion.Add("Terminator 5");
+            xficcion.Add("Star War I - La Amenaza Fantasma");
+            xficcion.Add("Star War II - El Ataque De Los Clones");
+            xficcion.Add("Star War III - La Venganza De Los Sith");
+            xficcion.Add("Star War IV - Una Nueva Esperanza");
+            xficcion.Add("Star War V - El Imperio ContraAtaca");
+            xficcion.Add("Star War VI - El Retorno Del Jedi");
+            xficcion.Add("Star War VII - El Despertar De La Fuerza");
+            xficcion.Add("Una Odisea del Espacio");
+            xficcion.Add("Yo Robot 1");
+            xficcion.Add("Yo Robot 2");
+            xficcion.Add("Origen");
+
+Para el Metodo epico()
+----------------------
+            var xepico = lstpeli.Items;
+            xepico.Clear();
+            xepico.Add("300");
+            xepico.Add("Apocalypto");
+            xepico.Add("Ben Hur");
+            xepico.Add("Centurion");
+            xepico.Add("Cruzada");
+            xepico.Add("El Principe de Persia");
+            xepico.Add("El Ultimo Samurai");
+            xepico.Add("Espartaco");
+            xepico.Add("Furia De Titanes 1");
+            xepico.Add("Furia De Titanes 2");
+            xepico.Add("Gladiador");
+            xepico.Add("Inmortales");
+            xepico.Add("La Legion del Aguila");
+            xepico.Add("La Momia 1");
+            xepico.Add("La Momia 2");
+            xepico.Add("La Momia 3");
+            xepico.Add("Las Cronicas De Narnia 1");
+            xepico.Add("Las Cronicas De Narnia 2");
+            xepico.Add("Robin Hood");
+            xepico.Add("Templario");
+            xepico.Add("Troya");
+
+Para el Metodo dibujos()
+------------------------
+	    var xdibujos = lstpeli.Items;
+            xdibujos.Clear();
+            xdibujos.Add("Alvin y Las Ardillas");
+            xdibujos.Add("Angry Birds La Pelicula");
+            xdibujos.Add("Buscando A Nemo");
+            xdibujos.Add("Cigueñas");
+            xdibujos.Add("El Recuerdo de Marnie");
+            xdibujos.Add("El Niño y La Bestia");
+            xdibujos.Add("Las Fiestas de las Salchichas");
+            xdibujos.Add("Mascotas");
+            xdibujos.Add("Norman Del Norte");
+            xdibujos.Add("Kung Fu Panda 1");
+            xdibujos.Add("Kung Fu Panda 2");
+            xdibujos.Add("Kung Fu Panda 3");
+            xdibujos.Add("Trolls");
+            xdibujos.Add("Zootropolis");
+
+Para el Metodo documental()
+---------------------------
+	    var xdocumental = lstpeli.Items;
+            xdocumental.Clear();
+            xdocumental.Add("Ai Weiwei: Never Sorry");
+            xdocumental.Add("Cutie and the Boxer");
+            xdocumental.Add("Pecados de mi Padre");
+            xdocumental.Add("Marwencol");
+            xdocumental.Add("Iraq In Fragments");
+            xdocumental.Add("General Orders No. 9");
+            xdocumental.Add("The Art of the Steal");
+            xdocumental.Add("The Thin Blue Line");
+            xdocumental.Add("The Act of Killing");
+            xdocumental.Add("This is not a Film");
+
+Para el Metodo musical()
+------------------------
+            var xmusical = lstpeli.Items;
+            xmusical.Clear();
+            xmusical.Add("La Bella y la Bestia");
+            xmusical.Add("Cabaret");
+            xmusical.Add("Cantando bajo la lluvia");
+            xmusical.Add("Chicago");
+            xmusical.Add("Dirty Dancing");
+            xmusical.Add("El Mago de Oz");
+            xmusical.Add("El fantasma de la Opera");
+            xmusical.Add("Mary Poppins");
+            xmusical.Add("Moulin Rouge");
+            xmusical.Add("Flashdance");
+            xmusical.Add("Fiebre de Sabado por la Noche");
+            xmusical.Add("La Sirenita");
+            xmusical.Add("Grease");
+            xmusical.Add("High School Musical");
+
+Para el Metodo terror()
+-----------------------
+            var xterror = lstpeli.Items;
+            xterror.Clear();
+            xterror.Add("Actividad Paranormal 1");
+            xterror.Add("Actividad Paranormal 2");
+            xterror.Add("Actividad Paranormal 3");
+            xterror.Add("Actividad Paranormal 4");
+            xterror.Add("Actividad Paranormal 5");
+            xterror.Add("Eliminado");
+            xterror.Add("Extincion");
+            xterror.Add("Insidious 1");
+            xterror.Add("Insidious 2");
+            xterror.Add("Insidious 3");
+            xterror.Add("La Mujer de Negro 1");
+            xterror.Add("La Mujer de Negro 2");
+            xterror.Add("La Horca");
+            xterror.Add("La Visita");
+            xterror.Add("La Piramide");
+            xterror.Add("Siniestro 1");
+            xterror.Add("Siniestro 2");
+            xterror.Add("Oculus: El Espejo Del Mal");
+
+Para el Metodo suspenso()
+-------------------------
+            var xsuspenso = lstpeli.Items;
+            xsuspenso.Clear();
+            xsuspenso.Add("Asesinato Justo");
+            xsuspenso.Add("El Coleccionista de Huesos");
+            xsuspenso.Add("El Codigo Da Vinci");
+            xsuspenso.Add("El Efecto Mariposa");
+            xsuspenso.Add("El Ilusionista");
+            xsuspenso.Add("Enemigo Publico");
+            xsuspenso.Add("El Exorcista");
+            xsuspenso.Add("El Truco Final");
+            xsuspenso.Add("El Silencio de los Inocentes");
+            xsuspenso.Add("El Sexto Sentido");
+            xsuspenso.Add("La Deuda");
+            xsuspenso.Add("Los Otros");
+            xsuspenso.Add("Los Infiltrados");
+            xsuspenso.Add("Rio Mistico");
